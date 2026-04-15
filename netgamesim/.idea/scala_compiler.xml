@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ScalaCompilerConfiguration">
-    <profile name="sbt 1" modules="GenericSimUtilities,NetModelGenerator,netgamesim_2972" />
-    <profile name="sbt 2" modules="NetGameSim">
+    <option name="separateProdTestSources" value="true" />
+    <profile name="sbt 1" modules="GenericSimUtilities,NetModelGenerator,netgamesim.NetGameSim,netgamesim.NetGameSim.GenericSimUtilities,netgamesim.NetGameSim.GenericSimUtilities.main,netgamesim.NetGameSim.GenericSimUtilities.test,netgamesim.NetGameSim.NetModelGenerator,netgamesim.NetGameSim.NetModelGenerator.main,netgamesim.NetGameSim.NetModelGenerator.test,netgamesim_2972" />
+    <profile name="sbt 2" modules="NetGameSim,netgamesim.NetGameSim.main,netgamesim.NetGameSim.test">
       <option name="compileOrder" value="JavaThenScala" />
       <option name="deprecationWarnings" value="true" />
       <option name="featureWarnings" value="true" />
